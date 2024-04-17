@@ -1,0 +1,26 @@
+#title {
+text-decoration: underline;
+font-weight: bold;
+}
+
+.description{
+    color:green;
+    color:pink;
+    /* 아래로 갈수록 제일 우선순위 */
+}
+
+p {
+    font-style: italic;
+}
+
+div p {
+    color: red;
+}
+
+div p span{
+    color: yellow;
+}
+
+.Home{
+    color: blue;
+}
