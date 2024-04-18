@@ -11,33 +11,41 @@
     ></script>
   </head>
   <body>
-    <nav>
-      <div class="logo">logo</div>
-
-      <div class="nav-items">
-        <div>home</div>
-        <div>about</div>
-        <div>tech stack</div>
-        <div>projects</div>
-        <div>contact</div>
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-instagram"></i>
+        <header class="header">
+            <h1 class="header__logo__title"><a href="#">UK</a></h1>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__menu">
+              <li><a class="header__menu__item active" href="#home">Home</a></li>
+              <li><a class="header__menu__item" href="#about">About</a></li>
+              <li><a class="header__menu__item" href="#skills">Skills</a></li>
+              <li><a class="header__menu__item" href="#work">My work</a></li>
+              <li><a class="header__menu__item" href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <button class="header__toggle" aria-label="navigation menu toggle">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </header>
       </div>
-    </nav>
+    
 
-    <main>
-      <header class="header">
+    
+      <header class="head">
         <div class="introduce">
           <h2>"HI My name is <span>uk</span> I buliding things for web"</h2>
           <h3>I building things for web</h3>
         </div>
 
         <div class="mypicture">My picture</div>
+
       </header>
-
+    </nav>
       <br />
       <br />
-
+      <main>
       <section>
         <div class="stack">
           <h2>My Tech stack</h2>
@@ -71,14 +79,35 @@
                 <i class="fa-brands fa-github"></i>
                 <div>github</div>
             </div>
-
             </div>   
+            </article>
+            <!-- 프로젝트2 -->
+            <article class = "prj-item">
+            <div class = "project-thumbnail"></div>
+            <div class = "project-item">
+               <h4>Project2</h4>
+               <p class = "one-summary">1줄 요약</p>
+               <div class = "prj-tect">기술스택을 적으세요</div>
+            <div class = "project-link">
+                <i class="fa-brands fa-github"></i>
+                <div>github</div>
             </div>
-            <div class="item">Project1</div>
-            <div class="item">Project2</div>
-            <div class="item">Project3</div>
-          </div>
-
+            </div>
+           </article>
+            <!-- 프로젝트3 -->
+            <article class = "prj-item">
+            <div class = "project-thumbnail"></div>
+            <div class = "project-item">
+               <h4>Project3</h4>
+               <p class = "one-summary">1줄 요약</p>
+               <div class = "prj-tect">기술스택을 적으세요</div>
+            <div class = "project-link">
+                <i class="fa-brands fa-github"></i>
+                <div>github</div>
+            </div>
+            </div>
+            </article>
+        </div>
         </div>
       </section>
     </main>
