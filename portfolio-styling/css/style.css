@@ -104,11 +104,25 @@ button:focus {
   align-items: center;
   z-index: 1;
   transition: background-color 300ms ease;
+  
 }
 
+@keyframes slide {
+  0% {
+      transform: translateX(0);
+  }
+  50% {
+      transform: translateX(100px); /* 로고가 오른쪽으로 이동 */
+  }
+  100% {
+      transform: translateX();
+  }
+}
 
 .header__logo__title {
+
   font-size: 1.8rem;
+  animation: slide 2s ease-in-out infinite;
 }
 
 
